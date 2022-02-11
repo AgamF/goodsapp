@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p {
+    font-family: 'Arimo', sans-serif;
+}
+
+#darkmode-btn {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#darkmode-btn:hover { transform: scale(1.1) }
+
+#cool-container {
+    background: url('./assets/coolcontainer.png');
+    height: 200px;
+    width: 1200px;
+}
